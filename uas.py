@@ -40,7 +40,7 @@ with data_set_description:
     """)
     st.write("""4. wind (angin) :
 
-    Kecepatan angin
+    Kecepatan angin disebabkan oleh pergerakan angin dari tekanan tinggi ke tekanan rendah, biasanya karena perubahan suhu
     """)
     st.write("""5. weather (cuaca) :
 
