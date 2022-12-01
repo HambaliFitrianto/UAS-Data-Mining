@@ -32,11 +32,11 @@ with data_set_description:
     """)
     st.write("""2. tempmax (suhu maks) :
 
-    Suhu Maksimum
+    Suhu Maksimum : Suhu yang terbaca dari termometer maksimum di ada di dataset
     """)
     st.write("""3. tempmin (suhu min) :
 
-    Suhu Minimum
+    Suhu Minimum : Suhu yang terbaca dari termometer maksimum di ada di dataset
     """)
     st.write("""4. wind (angin) :
 
