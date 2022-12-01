@@ -10,8 +10,8 @@ from sklearn.metrics import accuracy_score
 from sklearn.naive_bayes import GaussianNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.tree import DecisionTreeClassifier
-import warnings
-warnings.filterwarnings("ignore")
+# import warnings
+# warnings.filterwarnings("ignore")
 
 
 st.title("PENAMBANGAN DATA")
@@ -36,7 +36,7 @@ with data_set_description:
     """)
     st.write("""3. tempmin (suhu min) :
 
-    Suhu Minimum : Suhu yang terbaca dari termometer maksimum di ada di dataset
+    Suhu Minimum : Suhu yang terbaca dari termometer minimum di ada di dataset
     """)
     st.write("""4. wind (angin) :
 
