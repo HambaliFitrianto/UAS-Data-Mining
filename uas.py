@@ -1,5 +1,5 @@
-import pandas as pd
 import streamlit as st
+import pandas as pd
 import numpy as np
 from PIL import Image
 import altair as alt
@@ -163,21 +163,6 @@ with modeling:
         k_nn = st.checkbox('K-Nearest Neighboor')
         destree = st.checkbox('Decission Tree')
         submitted = st.form_submit_button("Submit")
-
-            # NB
-    GaussianNB(priors=None)
-
-    # Fitting Naive Bayes Classification to the Training set with linear kernel
-    nvklasifikasi = GaussianNB()
-    nvklasifikasi = nvklasifikasi.fit(X_train, y_train)
-
-    # Predicting the Test set results
-    y_pred = nvklasifikasi.predict(X_test)
-    
-    y_compare = np.vstack((y_test,y_pred)).T
-    nvklasifikasi.predict_proba(X_test)
-    akurasi = round(100 * accuracy_score(y_test, y_pred))
-    # akurasi = 10
 
         # NB
         GaussianNB(priors=None)
