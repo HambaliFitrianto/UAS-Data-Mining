@@ -28,7 +28,6 @@ with data_set_description:
     st.write("""###### Penjelasan setiap kolom : """)
     st.write("""1. preciptation (curah hujan) :
 
-    # Semua bentuk di mana air jatuh di permukaan tanah dan badan air terbuka seperti hujan, hujan es, salju, hujan es, atau gerimis
     Curah hujan : jumlah hujan yang turun pada suatu daerah dalam waktu tertentu. untuk menentukan besarnya curah hujan, membutuhkan suatu alat ukur. Alat pengukur curah hujan disebut dengan fluviograf dan satuan curah hujan yang biasanya digunakan adalah milimeter (mm).
     """)
     st.write("""2. tempmax (suhu maks) :
